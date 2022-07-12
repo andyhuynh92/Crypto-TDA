@@ -1,6 +1,6 @@
 # Topological Data Analysis of Cryptocurrencies
 
-I analyze cryptocurrencies focusing on Bitcoin(BTC) using topological data analysis. [This article](https://arxiv.org/abs/1703.04385) provides a method to do so. 
+I analyze cryptocurrencies focusing on Bitcoin(BTC) using topological data analysis. [This article](https://arxiv.org/abs/1703.04385) provides a method to apply TDA to stocks. I will use an adaptation of this method.  
 
 An initial analysis of bitcoin shows a cyclic structure. One feature of Bitcoin is the halving occuring around every 4 years. This is when the reward of bitcoin after mining is cut in half. This halving might be the reason or a contribution to the cyclic structure of BTC. At the time of this writing, there have been 3 halvings so far. Using the halving dates as reference points to measure between cycles, I want to analyze the time series of the BTC-USD price using topological data analysis. 
 
